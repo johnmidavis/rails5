@@ -1,0 +1,8 @@
+version: "3"
+services:
+   rails:
+     image: "rails-experiment:stage_1"
+     volumes:
+       - "./app:/app"
+     entrypoint: "tail -f /dev/null"
+
